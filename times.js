@@ -47,11 +47,18 @@ let times= [
         Nome:"Epa Futsal",
         Goleiro:"Dudu",
         Fivô:"Xandy",
-        AlaDireira:"Gide",
-        AlaEsquerda:"José",
-        Pivô:"Hellman",
+        AlaDireira:"Luiz Gustavo",
+        AlaEsquerda:"André",
+        Pivô:"Gide",
         Tecnico:"Nelson",
         Vitória:2,
         Derrotas:1,
     }  
 ]
+
+function vertimes () {
+    times. forEach((time) => {
+           console.log (time.nome + "-" + time.goleiro + "(goleiro)", time.aladireita + "(ala)" , time.alaesquerda + "(ala)" + time.pivô + "(pivô)" + time.fixo + "(fixo)" + time.técnico + time.vitorias + time.derrotas)
+    } );
+}
+   vertimes();
