@@ -61,4 +61,30 @@ function vertimes () {
            console.log (time.nome + "-" + time.goleiro + "(goleiro)", time.aladireita + "(ala)" , time.alaesquerda + "(ala)" + time.pivô + "(pivô)" + time.fixo + "(fixo)" + time.técnico + time.vitorias + time.derrotas)
     } );
 }
-   vertimes();
+
+function vertimes ( ){ 
+    times.forEach ((time) => {
+        console.log(time.nome+ "-" + time.goleiro +"(goleiro),"+
+            time.goleiro + "(goleiro)," +
+            time.alaDireita + "(ala dir.), " +
+
+
+        
+    )}
+}
+
+function marcarjogos(timeA, timeB, data, horario, cidade){
+    let jogos = require("./jogos.json");
+    jogo = {
+        timeA: timeB,
+        timeB: timeB,
+        data: data,
+        horario: horario,
+        esta
+    }
+
+}
+
+
+
+   
